@@ -1,7 +1,7 @@
 # RayTracer
 A ray tracer written using both the Wolfram Language and CUDA/C++.
 
-A Mathematica notebook is used as the frontend for specifying the scene and render settings (objects, lighting, materials, resolution, etc.). This information is then passed to a CUDA kernel using <a href="https://reference.wolfram.com/language/CUDALink/tutorial/Overview.html">CUDALink</a>. The result is then sent back to the notebook.
+A Mathematica notebook is used as the frontend for specifying the scene and render settings (objects, lighting, materials, resolution, etc.). This information is then passed to a CUDA kernel using <a href="https://reference.wolfram.com/language/CUDALink/tutorial/Overview.html">CUDALink</a>. The resulting pixels are then sent back to the notebook.
 
 This method combines the flexibility of the Wolfram Language with the performance of GPU programming.
 
